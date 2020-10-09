@@ -1,6 +1,9 @@
 steps:
-  - label: ":hammer: Example Script"
+  - label: ":hammer: Test on CI stack v4.5.0 spot instance"
     command: "script.sh"
-    artifact_paths: "artifacts/*"
     agents:
-      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+      queue: spot-v4-5-test
+  - label: ":hammer: Test on CI stack v5 spot instance"
+    command: "script.sh"
+    agents:
+      queue: spot-v5-test
