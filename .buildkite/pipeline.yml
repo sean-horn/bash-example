@@ -2,8 +2,8 @@ steps:
   - label: ":hammer: Test on CI stack v4.5.0 spot instance"
     command: "script.sh"
     agents:
-      queue: spot-v4-5-test
+      queue: windows
   - label: ":hammer: Test on CI stack v5 spot instance"
     command: "script.sh"
     agents:
-      queue: spot-v5-test
+      queue: windows
