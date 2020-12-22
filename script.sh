@@ -29,4 +29,10 @@ function inline_image {
   printf '\033]1338;url='"$1"';alt='"$2"'\a\n'
 }
 
+function its_alive {
+  echo "--- :heart_eyes It's alive!"
+}
+
 inline_image 'artifact://artifacts/image.gif' 'Rainbows'
+
+its_alive
