@@ -30,7 +30,7 @@ function inline_image {
 }
 
 function its_alive {
-  echo "--- :heart_eyes It's alive!"
+  echo "--- :heart_eyes: It's alive!"
 }
 
 inline_image 'artifact://artifacts/image.gif' 'Rainbows'
