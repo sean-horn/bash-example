@@ -31,6 +31,7 @@ function inline_image {
 
 function its_alive {
   echo "--- :heart_eyes: It's alive!"
+  echo "--- And verified email address. Let's see if this shows up in My Builds"
 }
 
 inline_image 'artifact://artifacts/image.gif' 'Rainbows'
