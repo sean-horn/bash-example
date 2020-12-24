@@ -3,4 +3,5 @@ steps:
     command: "script.sh"
     artifact_paths: "artifacts/*"
     agents:
-      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+#      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+      queue: "mydefault"
