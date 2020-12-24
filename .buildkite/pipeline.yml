@@ -4,4 +4,4 @@ steps:
     artifact_paths: "artifacts/*"
     agents:
       queue: "mydefault"
-      something: "$MYTHING:-1"
+      something: "${MYTHING:-1}"
